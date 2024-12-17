@@ -26,7 +26,7 @@ function App(){
   }
 
   function deleteTodo(index:any){
-    let newTodoList = todos_.filter((val,valIndex)=>{
+    let newTodoList = todos_.filter((valIndex)=>{
       return valIndex !== index
     })
     setTodos(newTodoList)
